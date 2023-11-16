@@ -1,0 +1,22 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "test ui and api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeku2590/automation-game-cypress.git"
+  },
+  "author": "Zeine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeku2590/automation-game-cypress/issues"
+  },
+  "homepage": "https://github.com/Zeku2590/automation-game-cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.5.1"
+  }
+}
