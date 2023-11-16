@@ -1,14 +1,15 @@
-The Checkers Game - UI Automated Tests
+The Card Game - API Automated Tests
 
+This repository contains API automated tests for the Card Game. The tests were written using Cypress and implemented following steps:
 
-This repository contains automated tests for the Checkers Game. The tests were written using Cypress and implemented following steps:
+1.Navigate to https://deckofcardsapi.com
+2.Confirm the site is up
+3.Get a new deck
+4.Shuffle it
+5.Deal three cards to each of two players
+6.Check whether either has blackjack
+7.If either has, write out which one does
 
-1.Navigate to https://www.gamesforthebrain.com/game/checkers/
-2.Confirm that the site is up
-3.Make attempt to move blue.
-4.Make five legal moves as orange
-5.Restart the game after five moves
-6.Confirm that the restarting had been successful
 
 Getting Started
 
@@ -33,4 +34,7 @@ Running the Tests
 This project uses Cypress, so it allows testing with multiple browser types (Chromium, Firefox). To run the tests locally, execute the following command:
 
 npx cypress open
+
+
+
 
